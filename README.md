@@ -20,6 +20,9 @@ INSERT INTO Candles VALUES (13, "Matches", "Pink", 5, 8);
 INSERT INTO Candles VALUES (14, "Matches", "Orange", 5, 8);
 INSERT INTO Candles VALUES (15, "Matches", "Black", 5, 8);
 
+--display the database ordered by price.
 SELECT * FROM Candles ORDER BY price; 
+
+--what are the total amount of items?
 SELECT SUM(quantity) FROM Candles;
 
